@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #4C4C4C;
+}
+
 img {
   max-width: 400px;
 }
@@ -5,5 +14,26 @@ img {
 .red_outline {
   border: 1px solid red;
   padding: 10px;
+  margin: 10px;
+  background-color: skyblue;
 }
+
+a { 
+  text-decoration: none;
+  color: firebrick;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: purple;
+}
+
+a:visited {
+  color: black;
+}
+
 

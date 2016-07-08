@@ -12,6 +12,54 @@
       <li>Contact</li>  
     </ul> 
   </header>
+    
+    <form action="">
+    <fieldset>
+      <label class="hidden" for="firstname">First name:</label>
+      <input type="text" required name="firstname" placeholder="First name" id="firstname">
+      
+      <label class="hidden" for="email" >Email:</label>
+      <input required type="email" name="email" placeholder="yo@me.com" id="email">
+      
+      <label class="hidden" for="age" >Age:</label>
+      <input type="number" name="age" min="18" max="120" placeholder="65" id="age">
+    </fieldset>
+      <textarea name="bio" placeholder="A little about yourself" id="bio"></textarea>
+
+      <label class="hidden" for="favcolor">Favorite color:</label>
+      <input type="color" value="#666aaa" name="favcolor" id="favcolor">
+
+      <label class="hidden" for="website">My Site:</label>
+      <input class="min_input" required placeholder="http://www.nothing.com" type="url" name="website" id="website">
+
+      <input type="text" name="country" value="USA" readonly>
+
+      <input type="submit" disabled value="Other Text" name="submit">
+      <button type="submit">Other Text</button>
+
+      <fieldset>
+        <label for="peanuts">Peanuts</label>
+        <input type="checkbox" value="peanuts" checked id="peanuts" name="peanuts">
+        <label for="shellfish">Shellfish</label>
+        <input type="checkbox" value="shellfish" id="shellfish" name="shellfish">
+        <label for="soy">Soy</label>
+        <input type="checkbox" value="soy" id="soy" name="soy">
+        <label for="kiwis">Kiwis</label>
+        <input type="checkbox" value="kiwis" id="kiwis" name="kiwis">
+      </fieldset>
+
+      <fieldset>
+        <label for="red">Red</label>
+        <input type="radio" checked value="red" name="rgb" id="red">
+        <label for="green">Green</label>
+        <input type="radio" value="green" name="rgb" id="green">
+        <label for="blue">Blue</label>
+        <input type="radio" required value="blue" name="rgb" id="blue">
+      </fieldset>
+
+
+    </form>
+      
       <article id="this">
         <header>
           <h1>Hipster No. 1</h1>

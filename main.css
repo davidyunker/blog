@@ -36,4 +36,11 @@ a:visited {
   color: black;
 }
 
+.hidden {
+  display: none;
 
+}
+
+.min_input {
+  min-width: 500px;
+}
